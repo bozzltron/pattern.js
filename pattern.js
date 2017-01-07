@@ -29,7 +29,7 @@ class Pattern {
 				length = fragmentLength;
 
 			// keep adding chars to the comparator till we reach the end of the pattern
-			while(patternIndex != -1 && ((patternIndex + length - 1) <=	 second.length -1 )) {
+			while(patternIndex != -1 && ((patternIndex + length - 1) <=	 second.length - 1 )) {
 				length++;
 				pattern = lookahead;
 				lookahead = first.substring(index, index + length);

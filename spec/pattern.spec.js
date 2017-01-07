@@ -12,6 +12,8 @@ describe('Pattern', function() {
 		expect(pattern.detect('abc', 'xbc')).toEqual(['bc']);
 		pattern = new Pattern();
 		expect(pattern.detect('abcde', 'xbcdef')).toEqual(['bcde']);
+		pattern = new Pattern();
+		expect(pattern.detect('I am the first string','I am the second string') ).toEqual(['I am the ', 'st',' string']);
 	});
 
 	it('should give the same result for the same strings passed in different order', function(){
