@@ -10,6 +10,10 @@
     "pattern",
     "matching"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bozzltron/pattern.js.git"
+  },
   "author": "bozzltron",
   "license": "MIT",
   "devDependencies": {
