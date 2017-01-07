@@ -1,0 +1,18 @@
+{
+  "name": "pattern.js",
+  "version": "0.0.1",
+  "description": "Abritrary string pattern detection",
+  "main": "pattern.js",
+  "scripts": {
+    "test": "node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [
+    "pattern",
+    "matching"
+  ],
+  "author": "bozzltron",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
